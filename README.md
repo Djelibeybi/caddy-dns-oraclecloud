@@ -16,6 +16,8 @@ Build Caddy with:
 xcaddy build --with github.com/Djelibeybi/caddy-dns-oraclecloud
 ```
 
+This module currently requires Go 1.25 or newer because the pinned Caddy and `libdns-oraclecloud` versions both require it.
+
 ## Configuration
 
 The wrapper exposes the underlying `libdns-oraclecloud` provider fields directly. Supported auth modes are:
